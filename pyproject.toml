@@ -1,0 +1,31 @@
+[project]
+name = "ballet-parsing"
+version = "0.1.0"
+description = "Parsing newest ballet performances"
+authors = [
+    {name = "Aleksandr Kuraskin",email = "kuraskin0205@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp (>=3.12.15,<4.0.0)",
+    "asyncio (>=4.0.0,<5.0.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "gspread (>=6.2.1,<7.0.0)",
+    "playwright (>=1.55.0,<2.0.0)",
+    "selenium (>=4.35.0,<5.0.0)",
+    "setuptools (>=80.9.0,<81.0.0)",
+    "selenium-stealth (>=1.0.6,<2.0.0)",
+    "undetected-chromedriver (>=3.5.5,<4.0.0)",
+    "lxml (>=6.0.1,<7.0.0)",
+    "python-slugify (>=8.0.4,<9.0.0)",
+    "goose3 (>=3.1.19,<4.0.0)",
+    "googlenewsdecoder (>=0.1.7,<0.2.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
